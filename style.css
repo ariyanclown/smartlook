@@ -1,0 +1,173 @@
+body{
+    background-color: black;
+}
+*{
+    padding: 0%;
+    margin: 0;
+    
+    
+}
+
+.box img{
+    height: 60vh;
+    width: 100%;
+    display: block;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    align-items: center;
+    gap: 600px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+
+
+.png img{
+    height: 35px;
+}
+
+.sep{
+    background-color: #595959;
+    height: 2px;
+    margin:  20px 0;
+}
+
+.first{
+    display: flex;
+    color: white;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+
+.para{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.para :nth-child(2){
+    font-size: 20px;
+    text-align: center;
+
+}
+.para{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn{
+   
+     padding: 1em 2em;
+     background-color: #161a20;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+button::after{
+    content: '';
+    position: absolute;
+    height: 107%;
+    width: 102%;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom right, #008cff, #e100ff);
+    z-index: -1;
+}
+button:hover{
+    z-index: 0;
+    cursor: pointer;
+    box-shadow: 40px 0 100px #008cff7d, -40px 0 100px #e100ff77;
+}
+
+.gay{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    margin-top: 40px;
+}
+
+img{
+    height: 440px;
+}
+
+@media (max-width: 400px) {
+    .box img{
+    height: 30vh;
+    width: 100%;
+    display: block;
+    }
+img{
+    height: 150px;
+}
+video{
+    height: 144px;
+}
+ .para{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 30px;
+}
+
+.para :nth-child(2){
+    font-size: 10px;
+    text-align: center;
+
+}
+.btn{
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.btn{
+   
+     padding: 4px 8px;
+     background-color: #161a20;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+footer p{
+    font-size: 10px;
+}
+}
